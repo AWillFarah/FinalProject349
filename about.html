@@ -4,16 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>About Page</h1>
+  <header class="nav-bar">
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
       </ul>
     </nav>
-    <script src="index.js"></script>
+  </header>
+  <h1>About</h1>
+
+   
+  <div class="card position-absolute top-50 start-50 translate-middle" style="width: 18rem;">
+    
+    <div class="card-body">
+      <p class="card-text">Hi! My name is Will Farah. I recently graduated from MSU with a degree in Games and Interactive Media. I primarily specialize in technical design.
+        I've been making games since highschool, but I've been interested in game development ever since I was old enough to use a level editor.</p>
+    </div>
+    <img src="images/WillFarah.png" class="card-img-top" alt="...">
+  </div>
+
+
+
+
+
+
+  <script src="index.js"></script>
   </body>
 </html>

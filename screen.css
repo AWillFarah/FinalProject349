@@ -2,3 +2,100 @@
 a.active {
     font-weight: bold;
 }
+
+body{
+    background: #fffad6 
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+}
+
+h2{
+
+    font-size: 3em;
+}
+
+.section-header{
+    background: #007080;
+    background: linear-gradient(180deg,rgba(0, 112, 128, 1) 0%, rgba(0, 214, 186, 1) 100%);
+    text-align: center;
+
+    MARGIN: 0 0;
+    max-height: 100px;
+}
+
+header.nav-bar{
+    position: sticky;
+    top: 0;
+    background: #FF569C;
+    background: linear-gradient(180deg,rgba(255, 86, 156, 1) 0%, rgba(253, 170, 198, 1) 100%);
+    font-size: 2em;
+    
+}
+
+
+.nav-item{
+    margin: 5px 100px;
+}
+
+div{
+   justify-content: center; 
+}
+
+#will{
+    max-width: 300px;
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+}
+
+.col{
+    min-width: 50%;
+}
+
+.game-header{
+    background: #AD0B42;
+    background: linear-gradient(180deg,rgba(173, 11, 66, 1) 0%, rgba(255, 86, 156, 1) 100%);
+    max-width: 10%;
+    margin: 0 5%;
+    border-radius: 10%;
+    
+}
+
+.game-description{
+    background: #FF569C;
+    background: linear-gradient(180deg,rgba(255, 86, 156, 1) 0%, rgba(253, 170, 198, 1) 100%);
+    max-width: 50%;
+    margin: 0 5%;
+    border-radius: 10%;
+    display: flex;
+    
+}
+
+.game-entry{
+    display: flex;
+}
+
+.description{
+    margin: 5% 5%;
+}
+
+iframe{
+    margin: 0 5%;
+    min-width: 450px;
+    min-height: 300px;
+}
+
+
+.about-me{
+    background: #FF569C;
+    background: linear-gradient(180deg,rgba(255, 86, 156, 1) 0%, rgba(253, 170, 198, 1) 100%);
+    max-width: 50%;
+    justify-content: center;
+    border-radius: 10%;
+    
+    margin: 0% 25%;
+}
+
