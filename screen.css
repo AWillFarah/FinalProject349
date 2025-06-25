@@ -96,3 +96,12 @@ iframe{
     margin: 10% 25%;
 }
 
+#flex-images{
+    justify-content: center;
+    margin: 100px 25px;
+    display: flex;
+}
+#flex-images > img{
+    max-width: 500px;
+    
+}
