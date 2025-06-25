@@ -89,13 +89,10 @@ iframe{
 }
 
 
-.about-me{
+
+#about-me-box{
     background: #FF569C;
     background: linear-gradient(180deg,rgba(255, 86, 156, 1) 0%, rgba(253, 170, 198, 1) 100%);
-    max-width: 50%;
-    justify-content: center;
-    border-radius: 10%;
-    
-    margin: 0% 25%;
+    margin: 10% 25%;
 }
 
